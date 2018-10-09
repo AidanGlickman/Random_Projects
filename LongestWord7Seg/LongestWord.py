@@ -35,8 +35,6 @@ def seg(word, mapping):
             line = line+1
     return "\n".join(letters)
 
-
-
 def readList(file, term):
     with open(file, "r") as words:
         wordlist = words.read().split(term)
@@ -52,7 +50,6 @@ def readMappings(file):
         return mappings
 
 def search(wordlist, bad):
-    
     wordlist.sort(key = lambda s: len(s), reverse=True)
     for i in wordlist:
         if not bad.findall(i):
