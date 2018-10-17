@@ -3,3 +3,4 @@
 
 ## Projects
 * What is the Longest Word You Can Make With a 7-Segment Display?
+* More coming soon!
